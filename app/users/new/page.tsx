@@ -1,8 +1,14 @@
 import React from 'react'
+import { ReactDOM } from 'react'
+import LoginForm from '../../components/LoginForm'
 
 const NewUserPage = () => {
   return (
-    <div>New User Page</div>
+    
+    <div>
+      <h1>New User Page</h1>
+      <button name='btn' id=''  value={}
+    </div>
   )
 }
 

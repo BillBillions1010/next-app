@@ -1,10 +1,14 @@
 import '@/globals.css'
 import type { Metadata } from 'next'
-import {inter, lusitana, lobstertwo, baskerville, graduate, sixcaps} from '@/app/ui/fonts'
+import * as fontsArray from '@/app/ui/fonts'
 
-
+/*  baskerville lobstertwo lusitana inter
+alphaslabone smokum specialelite sixcaps graduate  */
+// Construct Home Page
+//console.log(fontArray);
+// Meta Data
 export const metadata: Metadata = {
-  title: 'Bills Next App',
+  title: 'Next-App',
   description: 'Using Create-next-app, a React Framework in JavaScript',
 }
 
@@ -14,8 +18,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={lobstertwo.className}>{children}</body>
+    <html lang="en-us" className={`${fontsArray.lobstertwo.variable}`}>
+      <body className={`light `}>
+        {children}
+      </body>
     </html>
-  )
+  );
 }

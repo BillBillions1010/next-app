@@ -1,3 +1,14 @@
+@import url('./vars.css');
+/* @import url('@/app/ui/'); */
+
+.avatar {
+    color: #5e5;
+}
+
+.lobstertwo {
+    color: #f00;
+}
+
 .shape {
     height: 0;
     width: 0;
