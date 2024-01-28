@@ -10,7 +10,7 @@ const HomePage: React.FC = () => {
 
   return (
     <div>
-      <h1>Welcome to My Next.js App</h1>
+      <h1>Welcome to next-site</h1>
       <LoginForm onLogin={handleLogin} />
     </div>
   );

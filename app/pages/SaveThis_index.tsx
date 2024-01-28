@@ -10,7 +10,7 @@ const HomePage: React.FC = () => {
 
   return (
     <div>
-      <h1>Welcome next-site</h1>
+      <h1>Welcome to Next-Site</h1>
       <LoginForm onLogin={handleLogin} />
     </div>
   );

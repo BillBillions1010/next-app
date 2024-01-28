@@ -41,7 +41,7 @@ export default class NextSite extends App {
                     <meta http-equiv='xmlns' ie='edge'/>
                     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=yes' />
                     
-                    <meta author='BillBillions1010'
+                    <meta author='BillBillions1010' />
                     <title>'&brace;${this.pageProps.name}&rbrace;'</title>
                 </Head>
                 <Component {...pageProps} />
