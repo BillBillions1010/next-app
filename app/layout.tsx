@@ -2,10 +2,13 @@ import '@/globals.css'
 import type { Metadata } from 'next'
 import * as fontsArray from '@/app/ui/fonts'
 
-/*  baskerville lobstertwo lusitana inter
-alphaslabone smokum specialelite sixcaps graduate  */
+/*  
+  Current Fonts:
+    baskerville, lobstertwo, lusitana, inter,
+    alphaslabone, smokum, specialelite, sixcaps, graduate  */
+ 
 // Construct Home Page
-//console.log(fontArray);
+console.log(fontsArray);
 // Meta Data
 export const metadata: Metadata = {
   title: 'Next-App',

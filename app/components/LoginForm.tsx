@@ -1,14 +1,25 @@
 // components/LoginForm.tsx
 import { useForm } from 'react-hook-form';
+import React, {useState} from 'react';
 
+// Construct options for LoginForm
 interface LoginFormProps {
-  onLogin: (data: { username: string; password: string }) => void;
+  onLogin: (
+    data: { 
+      uName: string; // Username
+      fName: string; // First Name
+      lName: string; // Last Name
+      userID: number;
+      email: string;
+      password: string;
+    }
+    ) => void;
 }
 
 const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
   const { register, handleSubmit } = useForm();
 
-  const onSubmit = (data: { username: string; password: string }) => {
+  const onSubmit = (data: { uName: string; password: string }) => {
     // Handle form submission
     onLogin(data);
   };

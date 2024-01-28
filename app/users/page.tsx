@@ -1,9 +1,14 @@
 import React from 'react'
+import Header from '@/app/components/Header/Header'
+import Body from '@/app/components'
 
-const UsersPage = () => {
+const UserRegistration = () => {
+  use
   return (
-    <div> Users Page </div>
-  )
+    <>
+  
+    </>
+  );
 }
 
-export default UsersPage 
+export default UserRegistration

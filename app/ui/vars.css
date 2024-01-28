@@ -7,7 +7,7 @@
     --background-solid-rgb:
 
   }
-  body {
+  .body {
     background-color: var(--);
   }  
   /* override if dark theme */
