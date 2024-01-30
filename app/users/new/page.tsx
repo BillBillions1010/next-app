@@ -1,6 +1,6 @@
 import React from 'react'
 import { ReactDOM } from 'react'
-import LoginForm from '../../components/LoginForm'
+import LoginForm from '../../lib/components/GPTLoginForm'
 
 const NewUserPage = () => {
   return (

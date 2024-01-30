@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form'; // Make sure to use named import
 
 
 
-const login = () => {
+const Login = () => {
   return (
     <div>
         <LoginForm />
@@ -12,4 +12,4 @@ const login = () => {
   )
 }
 
-export default login
+export default Login

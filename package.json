@@ -17,6 +17,7 @@
     "clsx": "^2.0.0",
     "heroicons": "^2.1.1",
     "next": "^14.1.0",
+    "next-app": "^0.0.0",
     "postcss": "8.4.31",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -40,5 +41,41 @@
   },
   "engines": {
     "node": ">=18.17.0"
-  }
+  },
+  "name": "next-billion-site",
+  "description": "Automated Affiliate Marketing Web Site Creation and distribution. Log In and Complete The Form to Recieve Your Dynamicly Created Affiliate site file.",
+  "version": "0.1.0",
+  "main": "App.jsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billbillions1010/next-app.git"
+  },
+  "keywords": [
+    "billions-app",
+    "create-billions-app",
+    "bill",
+    "nextjs",
+    "javascript",
+    "affiliate",
+    "e marketing",
+    "esites",
+    "dropshipping",
+    "web creation",
+    "web development",
+    "next-site",
+    "create-next-site",
+    "billbillions1010",
+    "business",
+    "billions.io",
+    "bills app",
+    "web app",
+    "affiliate sites",
+    "app development"
+  ],
+  "author": "billbillions1010",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billbillions1010/next-app/issues"
+  },
+  "homepage": "https://github.com/billbillions1010/next-app/app/page.jsx"
 }

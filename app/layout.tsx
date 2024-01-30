@@ -1,3 +1,5 @@
+import React from 'react'
+import LoginForm from './components/LoginForm'
 import '@/globals.css'
 import type { Metadata } from 'next'
 import * as fontsArray from '@/app/ui/fonts'
@@ -11,8 +13,8 @@ import * as fontsArray from '@/app/ui/fonts'
 console.log(fontsArray);
 // Meta Data
 export const metadata: Metadata = {
-  title: 'Next-App',
-  description: 'Using Create-next-app, a React Framework in JavaScript',
+  title: 'next-site.app BillBillions1010',
+  description: 'Creates affiliate marketing sites',
 }
 
 export default function RootLayout({

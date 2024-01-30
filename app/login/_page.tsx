@@ -1,6 +1,10 @@
-// pages/index.tsx
+/**********************************
+*** /login/page.tsx
+***********************************/
 import React from 'react';
-import LoginForm from '../components/LoginForm';
+import LoginForm from 'components/LoginForm';
+import Login from '@/login/Login';
+
 
 const HomePage: React.FC = () => {
   const handleLogin = (data: { username: string; password: string }) => {
@@ -10,7 +14,8 @@ const HomePage: React.FC = () => {
 
   return (
     <div>
-      <h1>Welcome to next-site</h1>
+      <h1>Welcome to my next-site app</h1>
+      <Header />
       <LoginForm onLogin={handleLogin} />
     </div>
   );

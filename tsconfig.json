@@ -29,7 +29,7 @@
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.js",
     "scripts/seed.js"
-  ],
+, "app/pages/about.jsx", "app/pages/_App.jsxapp/pages/_document.jsx.jsx", "pages/componentsapp/pages/index.tsxndex.tsx", "app/pages/landing.jsx", "app/pages/login.jsx", "app/pages/profile.jsx"  ],
   "exclude": [
     "node_modules"
   ]
