@@ -1,5 +1,5 @@
 @import url(@/app/ui/vars.css );
-@import url(@/app/ui/fonts.ts);
+/*@import url(@/app/ui/fonts.ts);*/
 @import url(@/app/ui/home.module.css);
 
 @tailwind base;

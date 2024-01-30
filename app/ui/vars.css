@@ -1,24 +1,24 @@
-:root {
+/*:root {
     --col: rgb(44, 221, 133);
     --foreground-rgb: rgba(116, 127, 124, 0.986); /* Light Grey */
-    --background-start-rgb:  rgb(20, 20, 20); /* dark */
-    --background-end-rgb: rgb(220, 220, 220); /* light */
-    --div-background-rgba: rgba(20, 222, 120, 0.3); /* Transp. Green */
-    --background-solid-rgb:
+    /*--background-start-rgb:  rgb(20, 20, 20); /* dark */
+    /*--background-end-rgb: rgb(220, 220, 220); /* light */
+    /*--div-background-rgba: rgba(20, 222, 120, 0.3); /* Transp. Green */
+    /*--background-solid-rgb:
 
   }
   .body {
     background-color: var(--);
   }  
   /* override if dark theme */
-  @media (prefers-color-scheme: dark) {
+ /* @media (prefers-color-scheme: dark) {
     :root {
       --foreground-rgb: rgb(220, 220, 220); /* Light */
-      --background-start-rgb: rgb(20, 20, 20); /* Dark */
-      --background-end-rgb: rgb(60, 220, 120); /* Solid Green */
-      --background-solid-rgb: rgb(40, 71, 118); /* Solid Blue */
-    }
+   /*   --background-start-rgb: rgb(20, 20, 20); /* Dark */
+   /*   --background-end-rgb: rgb(60, 220, 120); /* Solid Green */
+    /*  --background-solid-rgb: rgb(40, 71, 118); /* Solid Blue */
+    /*}*/
     .body {
       display:block;
     }
-  }
+  
