@@ -10,8 +10,6 @@ import {
     Alfa_Slab_One,
  } from 'next/font/google';
 
-
-
 export const inter = Inter({ 
     subsets: ['latin'],
     weight: ['400', '700'],

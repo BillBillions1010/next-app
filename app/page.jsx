@@ -1,7 +1,9 @@
 import React from 'react';
 import App from 'next';
 import Head from 'next';
-import Styles from 'next-material-kit';
+import styles from 'glabals.css'; 
+import * as fontArray from 'ui/fonts';
+import * as Styles from 'nextjs-material-kit';
 
 export default class NextSite extends App {
     componentDIdiMount() {
@@ -9,7 +11,7 @@ export default class NextSite extends App {
         
         =================================================
         *** BillBillions1010.github.io
-        *** Next-Site-Creator v0.1.0 based on create-nex-app and NextJS Material Kit Free
+        *** Next-Site-Creator v0.1.0 based on create-nex-app and NextJS-Material-Kit Free
         *** lisenced under MIT free use
         =================================================
         
@@ -41,7 +43,7 @@ export default class NextSite extends App {
                     <meta http-equiv='xmlns' ie='edge'/>
                     <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=yes' />
                     
-                    <meta author='BillBillions1010' />
+                    <meta author='BillBillions1010.github.io' />
                     <title>'&brace;${this.pageProps.name}&rbrace;'</title>
                 </Head>
                 <Component {...pageProps} />
